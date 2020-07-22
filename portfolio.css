@@ -6,7 +6,7 @@
     
 body {
     background-image: url(https://www.wallpaperboulevard.com/Images/product/angles-black-gold-jwni-l.jpg);
-
+}
 
 .footer {
     padding: 30px;
@@ -14,4 +14,24 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 15px;
+}
+.card {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+
+
+@media (max-width: 991px) { 
+  .card {
+    flex-direction: column;
+
+    /* left: 20px; */
+    /* position: relative; */
+    /* align-items: inherit; */
+    /* max-width: 100%; */
+    /* width: 100%; */
+  }   
+
 }
