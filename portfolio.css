@@ -23,9 +23,9 @@ body {
 }
 
 
-@media (max-width: 991px) { 
+/* @media (max-width: 991px) { 
   .card {
-    flex-direction: column;
+    flex-direction: column; */
 
     /* left: 20px; */
     /* position: relative; */
