@@ -19,9 +19,14 @@ body {
     display: flex;
     padding: 10px 30px;
     justify-content: space-between;
+    margin-top: 10px;
     /* align-items: flex-end; */
 }
 
+.col-6 {
+  display: flex;
+  justify-content: center;
+}
 
 /* @media (max-width: 991px) { 
   .card {
